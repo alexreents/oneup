@@ -5,17 +5,17 @@ import faEnvelope from "@fortawesome/fontawesome-free-regular/faEnvelope";
 
 const data = [
   {
-    link: "mailto:esascu@gmail.com",
+    link: "mailto:oneupscu@gmail.com",
     label: "Email",
     icon: faEnvelope,
   },
   {
-    link: "https://www.instagram.com/esascu/",
+    link: "https://www.instagram.com/oneupscu/",
     label: "Instagram",
     icon: faInstagram,
   },
   {
-    link: "https://www.facebook.com/esascu",
+    link: "https://www.facebook.com/oneupscu",
     label: "Facebook",
     icon: faFacebook,
   },

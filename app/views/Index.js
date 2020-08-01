@@ -9,7 +9,7 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/">Economics Student Association</Link>
+            <Link to="/">OneUp SCU</Link>
           </h2>
           <p>Santa Clara University</p>
         </div>

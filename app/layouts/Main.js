@@ -10,7 +10,7 @@ const Main = (props) => (
   <>
     <Analytics />
     <ScrollToTop />
-    <Helmet titleTemplate="%s | ESA" defaultTitle="ESA" />
+    <Helmet titleTemplate="%s | OneUp" defaultTitle="OneUp" />
     <div id="wrapper">
       <Header />
       <div id="main">{props.children}</div>

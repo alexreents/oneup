@@ -9,32 +9,32 @@ const randomString = (length) => {
 const pages = [
   {
     route: "/",
-    title: "ESA",
+    title: "OneUp",
     heading: "ABOUT THIS SITE",
   },
   {
     route: "/about",
-    title: "About | ESA",
+    title: "About | OneUp",
     heading: "ABOUT ME",
   },
   {
     route: "/articles",
-    title: "Articles | ESA",
+    title: "Articles | OneUp",
     heading: "ARTICLES",
   },
   {
     route: "/research",
-    title: "Research | ESA",
+    title: "Research | OneUp",
     heading: "RESEARCH",
   },
   {
     route: "/stats",
-    title: "Stats | ESA",
+    title: "Stats | OneUp",
     heading: "STATS",
   },
   {
     route: "/contact",
-    title: "Contact | ESA",
+    title: "Contact | OneUp",
     heading: "CONTACT",
   },
 ];

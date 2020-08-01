@@ -1,7 +1,7 @@
 const data = [
   {
     path: "/",
-    label: "ESA",
+    label: "OneUp",
     index: true,
   },
   {

@@ -22,7 +22,7 @@ const About = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/about">About ESA</Link>
+            <Link to="/about">About OneUp</Link>
           </h2>
         </div>
       </header>

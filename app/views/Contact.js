@@ -100,10 +100,12 @@ const Contact = () => {
             onMouseLeave={() => idx < messages.length && setIsActive(true)}
           >
             <a
-              href={validateText(message) ? `mailto:${message}@esascu.com` : ""}
+              href={
+                validateText(message) ? `mailto:${message}@oneupscu.com` : ""
+              }
             >
               <span>{message}</span>
-              <span>@esascu.com</span>
+              <span>@oneupscu.com</span>
             </a>
           </div>
         </div>
