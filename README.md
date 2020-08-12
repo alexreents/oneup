@@ -2,12 +2,16 @@
 
 ## For Carlos and Lucas:
 
-git clone git://github.com/alexreents/oneup.git
+First do:
 
-cd oneup
+```bash
+    git clone git://github.com/alexreents/oneup.git
+    cd oneup
+    npm install
+```
 
-npm install
+Then to get it running on port 7999:
 
-<br>
-
-npm run dev
+```bash
+    npm run dev
+```
