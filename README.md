@@ -5,7 +5,7 @@
 First do:
 
 ```bash
-    git clone git://github.com/alexreents/oneup.git
+    git clone https://github.com/alexreents/oneup.git
     cd oneup
     npm install
 ```
