@@ -7,9 +7,9 @@ import About from "./views/About";
 import Contact from "./views/Contact";
 import Index from "./views/Index";
 import NotFound from "./views/NotFound";
-import Articles from "./views/Articles";
-import Research from "./views/Research";
-import Stats from "./views/Stats";
+import Resources from "./views/Resources";
+import Projects from "./views/Projects";
+import Meetings from "./views/Meetings";
 
 // All of our CSS
 import "./static/css/main.scss";
@@ -19,9 +19,9 @@ ReactDOM.render(
     <Switch>
       <Route exact path="/" component={Index} />
       <Route path="/about" component={About} />
-      <Route path="/articles" component={Articles} />
-      <Route path="/research" component={Research} />
-      <Route path="/stats" component={Stats} />
+      <Route path="/resources" component={Resources} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/meetings" component={Meetings} />
       <Route path="/contact" component={Contact} />
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />

@@ -15,11 +15,11 @@ const Index = () => (
         </div>
       </header>
       <p>
-        {" "}
-        Santa Clara University <Link to="/about">About Us</Link>,{" "}
-        <Link to="/articles">articles</Link>, view{" "}
-        <Link to="/stats">site statistics</Link>, or{" "}
-        <Link to="/contact">contact</Link> me.
+        <Link to="/about">Learn about us, </Link>{" "}
+        <Link to="/projects">our projects,</Link>{" "}
+        <Link to="/resources">some helpful entreprenuerial resources,</Link>{" "}
+        <Link to="/meetings">our meetings</Link>, and{" "}
+        <Link to="/contact">get involved!</Link>
       </p>
     </article>
   </Main>

@@ -4,22 +4,19 @@ import { Helmet } from "react-helmet";
 
 import Main from "../layouts/Main";
 
-import Personal from "../components/Stats/Personal";
-
-const Stats = () => (
+const Meetings = () => (
   <Main>
-    <Helmet title="Stats" />
-    <article className="post" id="stats">
+    <Helmet title="Meetings" />
+    <article className="post" id="meetings">
       <header>
         <div className="title">
           <h2>
-            <Link to="/stats">Stats</Link>
+            <Link to="/meetings">Meetings</Link>
           </h2>
         </div>
       </header>
-      <Personal />
     </article>
   </Main>
 );
 
-export default Stats;
+export default Meetings;

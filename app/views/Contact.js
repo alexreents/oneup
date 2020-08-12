@@ -19,18 +19,18 @@ const messages = [
   "hi",
   "hello",
   "hola",
-  "you-can-email-me-at-literally-anything! Really",
+  "you-can-email-us-at-literally-anything! Really",
   "well, not anything. But most things",
   "like-this",
   "or-this",
   "but not this :(  ",
-  "you.can.also.email.me.with.specific.topics.like",
+  "you.can.also.email.us.with.specific.topics.like",
   "just-saying-hi",
   "i-have-a-question",
   "help",
-  "econ",
+  "entreprenuership",
   "or-I-want-to-join-your-club",
-  "I'll-stop-distracting-you-now",
+  "We'll-stop-distracting-you-now",
   "thanks",
 ];
 
@@ -82,17 +82,17 @@ const Contact = () => {
 
   return (
     <Main>
-      <Helmet title="Contact" />
+      <Helmet title="Get Involved" />
       <article className="post" id="contact">
         <header>
           <div className="title">
             <h2>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">Get Involved</Link>
             </h2>
           </div>
         </header>
         <div className="email-at">
-          <p>Feel free to get in touch. You can email me at: </p>
+          <p>Feel free to get in touch. You can email us at: </p>
           <div
             className="inline-container"
             style={validateText(message) ? {} : { color: "red" }}
@@ -109,7 +109,11 @@ const Contact = () => {
             </a>
           </div>
         </div>
+        <a href="http://eepurl.com/dFBqXT">
+          <span>Sign up for our newsletter!</span>
+        </a>
         <ul className="icons">
+          <br></br>
           {data.map((s) => (
             <li key={s.label}>
               <a href={s.link}>

@@ -9,20 +9,20 @@ const data = [
     label: "About",
   },
   {
-    path: "/research",
-    label: "Research",
+    path: "/projects",
+    label: "Projects",
   },
   {
-    path: "/articles",
-    label: "In the news",
+    path: "/resources",
+    label: "Resources",
   },
   {
-    path: "/stats",
-    label: "Stats",
+    path: "/meetings",
+    label: "Meetings",
   },
   {
     path: "/contact",
-    label: "Contact",
+    label: "Get Involved",
   },
 ];
 

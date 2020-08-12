@@ -18,24 +18,24 @@ const pages = [
     heading: "ABOUT ME",
   },
   {
-    route: "/articles",
-    title: "Articles | OneUp",
+    route: "/resources",
+    title: "Resources | OneUp",
     heading: "ARTICLES",
   },
   {
-    route: "/research",
-    title: "Research | OneUp",
-    heading: "RESEARCH",
+    route: "/projects",
+    title: "Projects | OneUp",
+    heading: "PROJECTS",
   },
   {
-    route: "/stats",
-    title: "Stats | OneUp",
+    route: "/meetings",
+    title: "Meetings | OneUp",
     heading: "STATS",
   },
   {
     route: "/contact",
-    title: "Contact | OneUp",
-    heading: "CONTACT",
+    title: "Get Involved | OneUp",
+    heading: "Get Inolved",
   },
 ];
 
