@@ -9,16 +9,16 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/">OneUp SCU</Link>
+            <Link to="/">OneUp Entrepreneurship Organization</Link>
           </h2>
           <p>Santa Clara University</p>
         </div>
       </header>
       <p>
-        Thanks for your interest in OneUp! We're currently building out our site
-        to include information about upcomding projects, general initiatives,
-        future meetings, resources for entrepreneurs, and more! In the meantime,
-        please feel free to{" "}
+        Thanks for your interest in OneUp SCU! We're currently building out our
+        site to include information about upcomding projects, general
+        initiatives, future meetings, resources for entrepreneurs, and more! In
+        the meantime, please feel free to{" "}
         <a href={"mailto:oneupscu@gmail.com"}>
           <span>reach out to us with any questions!</span>
         </a>
