@@ -7,110 +7,34 @@ import Main from "../layouts/Main";
 
 import data from "../data/contact";
 
-// Validates the first half of an email address.
-const validateText = (text) => {
-  // NOTE: Passes RFC 5322 but not tested on google's standard.
-  // eslint-disable-next-line no-useless-escape
-  const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
-  return re.test(text) || text.length === 0;
-};
-
-const messages = [
-  "hi",
-  "hello",
-  "hola",
-  "you-can-email-us-at-literally-anything! Really",
-  "well, not anything. But most things",
-  "like-this",
-  "or-this",
-  "but not this :(  ",
-  "you.can.also.email.us.with.specific.topics.like",
-  "just-saying-hi",
-  "i-have-a-question",
-  "help",
-  "entreprenuership",
-  "or-I-want-to-join-your-club",
-  "We'll-stop-distracting-you-now",
-  "thanks",
-];
-
-const useInterval = (callback, delay) => {
-  const savedCallback = useRef();
-
-  useEffect(() => {
-    savedCallback.current = callback;
-  }, [callback]);
-
-  useEffect(() => {
-    if (delay) {
-      const id = setInterval(() => {
-        savedCallback.current();
-      }, delay);
-      return () => clearInterval(id);
-    }
-    return () => {}; // pass linter
-  }, [delay]);
-};
-
 const Contact = () => {
-  const hold = 50; // ticks to wait after message is complete before rendering next message
-  const delay = 50; // tick length in mS
-
-  const [idx, updateIter] = useState(0); // points to current message
-  const [message, updateMessage] = useState(messages[idx]);
-  const [char, updateChar] = useState(messages[idx].length); // points to current char
-  const [isActive, setIsActive] = useState(true); // disable when all messages are printed
-
-  useInterval(
-    () => {
-      let newIdx = idx;
-      let newChar = char;
-      if (char - hold >= messages[idx].length) {
-        newIdx += 1;
-        newChar = 0;
-      }
-      if (newIdx === messages.length) {
-        setIsActive(false);
-      } else {
-        updateMessage(messages[newIdx].slice(0, newChar));
-        updateIter(newIdx);
-        updateChar(newChar + 1);
-      }
-    },
-    isActive ? delay : null
-  );
-
   return (
     <Main>
-      <Helmet title="Get Involved" />
+      <Helmet title="Contact" />
       <article className="post" id="contact">
         <header>
           <div className="title">
             <h2>
-              <Link to="/contact">Get Involved</Link>
+              <Link to="/contact">Contact</Link>
             </h2>
           </div>
         </header>
         <div className="email-at">
           <p>Feel free to get in touch. You can email us at: </p>
-          <div
-            className="inline-container"
-            style={validateText(message) ? {} : { color: "red" }}
-            onMouseEnter={() => setIsActive(false)}
-            onMouseLeave={() => idx < messages.length && setIsActive(true)}
-          >
-            <a
-              href={
-                validateText(message) ? `mailto:${message}@oneupscu.com` : ""
-              }
-            >
-              <span>{message}</span>
-              <span>@oneupscu.com</span>
-            </a>
-          </div>
+          <a href={"mailto:oneupscu@gmail.com"}>
+            <span>oneupscu@gmail.com</span>
+          </a>
         </div>
         <a href="http://eepurl.com/dFBqXT">
-          <span>Sign up for our newsletter!</span>
+          <span>Sign up here to recieve important club updates!</span>
+        </a>
+        <br></br>
+        <br></br>
+        <a href="https://us19.list-manage.com/survey?u=f4fe52f5efff8d28059493785&id=c32277e1ca">
+          <span>
+            Have an idea that you'd like to see built? Submit your
+            product/service here for us to review!{" "}
+          </span>
         </a>
         <ul className="icons">
           <br></br>
