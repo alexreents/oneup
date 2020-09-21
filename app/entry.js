@@ -18,10 +18,6 @@ ReactDOM.render(
   <Router basename={BASE_PATH}>
     <Switch>
       <Route exact path="/" component={Index} />
-      <Route path="/about" component={About} />
-      <Route path="/resources" component={Resources} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/meetings" component={Meetings} />
       <Route path="/contact" component={Contact} />
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />
@@ -29,3 +25,8 @@ ReactDOM.render(
   </Router>,
   document.getElementById("root")
 );
+
+//<Route path="/about" component={About} />
+//<Route path="/resources" component={Resources} />
+//<Route path="/projects" component={Projects} />
+//<Route path="/meetings" component={Meetings} />

@@ -1,6 +1,7 @@
 {
   "name": "oneup",
   "version": "2.1.0",
+  "homepage": "https://alexreents.github.io/oneup/",
   "scripts": {
     "build": "rimraf ./build && webpack --config ./webpack/webpack.production.config.babel.js --progress --profile --colors",
     "postbuild": "react-snap",

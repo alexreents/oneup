@@ -4,22 +4,6 @@ const data = [
     label: "OneUp",
     index: true,
   },
-  //  {
-  //    path: "/about",
-  //    label: "About",
-  //  },
-  //  {
-  //    path: "/projects",
-  //    label: "Projects",
-  //  },
-  //  {
-  //    path: "/resources",
-  //    label: "Resources",
-  //  },
-  //  {
-  //    path: "/meetings",
-  //    label: "Meetings",
-  //  },
   {
     path: "/contact",
     label: "Get Involved",
@@ -27,3 +11,20 @@ const data = [
 ];
 
 export default data;
+
+//  {
+//    path: "/about",
+//    label: "About",
+//  },
+//  {
+//    path: "/projects",
+//    label: "Projects",
+//  },
+//  {
+//    path: "/resources",
+//    label: "Resources",
+//  },
+//  {
+//    path: "/meetings",
+//    label: "Meetings",
+//  },
