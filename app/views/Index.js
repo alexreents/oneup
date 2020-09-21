@@ -41,7 +41,7 @@ const Index = () => (
       </p>
     </article>
     <a className="image">
-      <img className="index-photo" src="images/planner.jpg" alt=""></img>
+      <img className="index-photo" src="images/mvp.jpg" alt=""></img>
     </a>
   </Main>
 );
