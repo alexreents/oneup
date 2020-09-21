@@ -40,6 +40,9 @@ const Index = () => (
         </a>
       </p>
     </article>
+    <a className="image">
+      <img className="index-photo" src="images/planner.jpg" alt=""></img>
+    </a>
   </Main>
 );
 
