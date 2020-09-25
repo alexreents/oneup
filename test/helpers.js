@@ -12,26 +12,26 @@ const pages = [
     title: "OneUp",
     heading: "ABOUT THIS SITE",
   },
-  // {
-  //   route: "/about",
-  //   title: "About | OneUp",
-  //   heading: "ABOUT ME",
-  // },
-  // {
-  //   route: "/resources",
-  //   title: "Resources | OneUp",
-  //   heading: "ARTICLES",
-  // },
-  // {
-  //   route: "/projects",
-  //   title: "Projects | OneUp",
-  //   heading: "PROJECTS",
-  // },
-  // {
-  //   route: "/meetings",
-  //   title: "Meetings | OneUp",
-  //   heading: "STATS",
-  // },
+  {
+    route: "/about",
+    title: "About | OneUp",
+    heading: "ABOUT ME",
+  },
+  {
+    route: "/resources",
+    title: "Resources | OneUp",
+    heading: "ARTICLES",
+  },
+  {
+    route: "/projects",
+    title: "Projects | OneUp",
+    heading: "PROJECTS",
+  },
+  {
+    route: "/meetings",
+    title: "Meetings | OneUp",
+    heading: "STATS",
+  },
   {
     route: "/contact",
     title: "Get Involved | OneUp",
